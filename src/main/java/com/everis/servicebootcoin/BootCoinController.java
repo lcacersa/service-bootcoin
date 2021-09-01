@@ -1,0 +1,14 @@
+package com.everis.servicebootcoin;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class BootCoinController {
+
+    @GetMapping("/prueba")
+    public String hello() {
+        return "hello";
+    }
+
+}
